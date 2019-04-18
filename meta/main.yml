@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: Aulia Arshad
+  contributors:
+  description: Send to incoming webhook slack on staging/release deployment
+  company: Traveloka
+  license: MIT
+  min_ansible_version: 2.5.8
+  platforms:
+  - name: Ubuntu
+    versions:
+     - trusty
+  categories:
+  - slack
+  - deployment
+dependencies: []

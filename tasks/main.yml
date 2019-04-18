@@ -1,0 +1,6 @@
+---
+- name: "Sending to slack notification"
+  local_action:
+    module: slack
+    token: "{{ api_key }}"
+    msg: "@axes-engineering update `{{ service }}` to `{{ service_version }}, AMI ID {{ ami_id }}` by @{{ slack }}"
